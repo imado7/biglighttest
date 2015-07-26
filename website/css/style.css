@@ -1,7 +1,62 @@
 /* sass watch */
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
   padding: 0;
   margin: 0;
   font-size: .95em;
   line-height: 1em;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: #f2f2f2; }
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto; }
+
+.main-holder {
+  width: 100%; }
+
+header .logo-img {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: #fff;
+  border-bottom: 8px solid #000; }
+  header .logo-img a img {
+    max-width: 100%;
+    margin: 25px 0; }
+header form {
+  float: left;
+  margin: 20px 0;
+  text-transform: uppercase; }
+  header form fieldset {
+    border: 0;
+    padding-top: 7px; }
+    header form fieldset legend {
+      float: left; }
+    header form fieldset input[type='checkbox'] {
+      margin: 0 0 0 10px;
+      vertical-align: bottom; }
+  header form.show-select {
+    width: 80%; }
+  header form.search-header {
+    width: 15%;
+    float: right;
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    background: #fff; }
+    header form.search-header input[type='text'] {
+      width: 70%;
+      text-transform: uppercase;
+      border: 0;
+      padding: 8px 0 5px;
+      margin-left: 10%; }
+    header form.search-header input[type='submit'] {
+      width: 20%;
+      border: 0;
+      background: #fff;
+      font-size: 0;
+      float: right; }

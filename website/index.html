@@ -2,11 +2,41 @@
 <html>
     <head>
         <title>Big Light Test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     
     <body>
-    
-        <h1>Big Light Test</h1>
+        
+        
+        <div class="container">
+            <div class="main-holder">
+                <header>
+                    <div class="logo-img">
+                        <a href="#" title="life and style"><img src="images/logo.png" alt="life and style"></a>
+                    </div>
+                    <form class="show-select">
+                        <fieldset data-role="">
+                            <legend>Show me:</legend>
+                            <input type="checkbox" name="most-recent" id="most-recent">
+                            <label for="most-recent">Most recent</label>
+                            <input type="checkbox" name="department" id="department">
+                            <label for="department">Department</label>
+                            <input type="checkbox" name="buying-guides" id="buying-guides">
+                            <label for="buying-guides">Buying guides</label>
+                            <input type="checkbox" name="videos" id="videos">
+                            <label for="videos">Videos</label>
+                        </fieldset>
+                    </form>
+                    <form class="search-header">
+                        <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                        <input type="submit" value="Search">
+	                </form>
+                </header>
+            </div><!--main holder-->
+        </div><!--container-->
+        
+        
     </body>
 
     
